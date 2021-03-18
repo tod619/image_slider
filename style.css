@@ -16,7 +16,6 @@ body {
   justify-content: center;
   overflow: hidden;
   margin: 0;
-  background-image: url("image-1.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,26 +57,6 @@ body::before {
 
 .slide.active {
   opacity: 1;
-}
-
-.slide:nth-child(1) {
-  background-image: url("image-1.jpg");
-}
-
-.slide:nth-child(2) {
-  background-image: url("image-2.jpg");
-}
-
-.slide:nth-child(3) {
-  background-image: url("image-3.jpg");
-}
-
-.slide:nth-child(4) {
-  background-image: url("image-4.jpg");
-}
-
-.slide:nth-child(5) {
-  background-image: url("image-5.jpg");
 }
 
 .arrow {
